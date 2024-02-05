@@ -1,0 +1,96 @@
+body { /* Corregido: background-color en lugar de background */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Estilos para el Navbar */
+.navbar-top {
+  background-color: rgb(234, 55, 55);
+  color: white;
+  border-bottom: black 1px solid;
+}
+
+
+.navbar-brand,
+.navbar-link {
+  color:rgb(200, 250, 0)!important;
+}
+
+.navbar-link, span {
+  color: rgb(200, 250, 0) !important;
+  font-size: 20px;
+;
+}
+
+
+.navbar-link:hover {
+  color: rgb(158, 158, 55) !important;
+}
+
+.search{
+  color: black;
+}
+
+.logo img {
+  width: 300px; /* Adjust the width of your logo image */
+  height: 80px;
+}
+
+
+/* Siderbar */
+
+.reduced-height {
+  height: calc(100vh - 80px); /* Ajusta la altura según sea necesario (80px es un ejemplo) */
+  margin-top: 107px; /* Ajusta el margen superior según sea necesario */
+  position: fixed; /* Fija el Navbar en la posición */
+  top: 0;
+  bottom: 0;
+  overflow-y: auto; /* Añade desplazamiento vertical si es necesario */
+}
+#sidebar{
+  border-bottom: black 1px solid;
+  border-left: black 1px solid;
+  border-right: black 1px solid;
+  color: gold;
+}
+
+.fixed-left {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 1000;
+}
+
+.reduced-height {
+  max-height: 80vh; /* Ajusta la altura máxima según tus necesidades */
+  overflow-y: auto; /* Añade desplazamiento vertical si el contenido excede la altura máxima */
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+}
+
+.logo{
+  height: 90px;
+  width: 100%;
+}
+
+.lec-logo{
+  height: 90px;
+  width: 80%;
+  border: 1px solid gold;
+}
+
+.siderbar-link:hover{
+  color: rgb(158, 158, 55);}
